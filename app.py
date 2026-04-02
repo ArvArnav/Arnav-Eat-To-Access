@@ -57,9 +57,9 @@ def rizer():
             return "Access token not found in final URL", 500
 
         # Build the response text
-        response_text = f"""OWNER:RIZER
-TELEGRAM:@Beotherjk
-TELEGRAM CHANNEL:@beotherjkman
+        response_text = f"""OWNER: ARNAV
+INSTAGRAM: @faith_arnav
+YOUTUBE CHANNEL: @onlyhunterff
 THANKS FOR USING!
 access token= {access_token}"""
         return response_text, 200, {'Content-Type': 'text/plain'}
